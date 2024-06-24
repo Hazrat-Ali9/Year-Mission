@@ -1,0 +1,592 @@
+/* Greetings Section */
+
+.greetings {
+    display: flex;
+    width: 1320px;
+    height: 600px;
+
+    margin: 140px;
+}
+
+.greetings-text {
+    position: absolute;
+    width: 630px;
+    height: 250px;
+    top: 225px;
+    left: 480px;
+}
+
+.greetings-small {
+    color: white;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 5px;
+
+}
+
+.greetings-big {
+    color: white;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0;
+
+}
+
+.greetings-img {
+    border-radius: 10px;
+
+
+
+}
+
+/* New year Deal */
+
+.new-year-deal {
+    display: block;
+    margin: 120px;
+    width: 1320px;
+}
+
+.new-year-deal-off {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.new-year-deal-text {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 10px 0;
+}
+
+.new-year-deal-big-text {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 50px 0;
+}
+
+.new-year-deal img {
+    margin: 0 300px;
+}
+
+/* Party */
+
+.party {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    margin: 140px 140px 0;
+
+}
+
+.party-text {
+    padding-left: 120px;
+    width: 600px;
+
+}
+
+.party-text-big {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.party-text-small {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.party-button {
+    background-color: #FFF0;
+    color: white;
+    border: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.party-button:hover {
+    background-color: #FFF5;
+}
+
+.party>img {
+    transform: scale(0.70);
+    padding-right: 50px;
+}
+
+/* Event */
+
+.event {
+    display: flex;
+    flex-direction: column;
+    margin: 140px;
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 10px;
+
+}
+
+.event-text {
+    padding: 100px 385px 50px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.event-text>span {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.event-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px;
+    color: white;
+    margin: 0 575px;
+    border: 0px;
+}
+
+.event-btn:hover {
+    background: rgb(230, 2, 2);
+}
+
+/* Best offer */
+
+.best-offer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 140px;
+    width: 1320px;
+    height: 463px;
+}
+
+.best-offer-text {
+    padding-top: 100px;
+    width: 393px;
+    margin: 0;
+}
+
+.best-offer-text p:nth-of-type(1) {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.best-offer-text p:nth-of-type(2) {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.best-offer-text p:nth-of-type(3) {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+    margin-top: 22px;
+}
+
+
+.best-offer-img {
+    display: flex;
+    justify-content: center;
+    width: 463px;
+    height: 463px;
+    margin: 0;
+    border: 15px solid #F00;
+    border-radius: 100%;
+}
+
+.best-offer-img img {
+    transform: scale(0.85);
+}
+
+.best-offer-text-left {
+    padding-top: 100px;
+    width: 276px;
+    margin: 0;
+}
+
+.best-offer-text-left p:nth-of-type(1) {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.best-offer-text-left p:nth-of-type(2) {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* .best-offer-text-left img{
+    
+} */
+
+/* Holiday Sale */
+
+.holiday-sale {
+    margin: 140px;
+    width: 1320px;
+}
+
+.holiday-sale-text {
+    text-align: center;
+}
+
+.holiday-sale-text p:nth-of-type(1) {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday-sale-text p:nth-of-type(2) {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0;
+}
+
+.holiday-sale-text p:nth-of-type(2) span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-sale-text p:nth-of-type(3) {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 65px;
+}
+
+.holiday-sale-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url("../images/Rectangle-2.png");
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 665px;
+    margin: 0;
+    background-position: bottom;
+}
+
+.holiday-sale-img img:nth-of-type(1) {
+    transform: scale(0.90);
+    margin: 0;
+    position: absolute;
+    left: 100px;
+
+}
+
+.holiday-sale-img img:nth-of-type(2) {
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    left: 900px;
+}
+
+.holiday-sale-img img:nth-of-type(3) {
+    margin: 0;
+    position: absolute;
+    left: 1040px;
+}
+
+
+/* Portpolio */
+
+.portpolio {
+    margin: 0 140px;
+    width: 1320px;
+}
+
+.portpolio-text {
+
+    /* margin: 0; */
+}
+
+.portpolio-text p:nth-of-type(1) {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portpolio-text p:nth-of-type(2) {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.portpolio-text p:nth-of-type(3) {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 45px;
+}
+
+.portpolio-img {
+    display: flex;
+    /* flex-flow: row wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    gap: 25px;
+}
+
+.portpolio-img img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.portpolio-img img:hover {
+    border: 2px solid #070211;
+}
+
+/* Newsletter */
+
+.newsletter {
+    margin: 120px 140px;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    padding: 80px 0;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter img {}
+
+.newsletter p:nth-of-type(1) {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 40px 0 0 0;
+}
+
+.newsletter p:nth-of-type(2) {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 45px;
+}
+
+.newsletter-form {
+    width: 700px;
+    height: 72px;
+    margin: 0;
+}
+
+.newsletter-form input {
+    padding: 25px 265px 25px 30px;
+    border: 0;
+    border-radius: 50px 0 0 50px;
+    margin: 0;
+}
+
+.newsletter-form button {
+    padding: 20px 55px;
+    border: 0;
+    border-radius: 0 50px 50px 0;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+/* Footer */
+
+footer {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+}
+
+.website-information {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.address {
+    width: 375px;
+    padding-left: 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.information {
+    display: block;
+    padding-right: 275px;
+}
+
+.information img {
+    margin: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.information p {
+    display: inline;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer>hr {
+    width: 1320px;
+    height: 1px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 50px 140px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-media img {
+    margin: 0px 24px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyright p {
+    margin: 0 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
